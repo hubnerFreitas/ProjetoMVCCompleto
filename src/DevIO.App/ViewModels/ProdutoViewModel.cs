@@ -23,6 +23,7 @@ namespace DevIO.App.ViewModels
         [DisplayName("Descrição")]
         public string Descricao { get; set; }
 
+        [DisplayName("Imagem do Produto")]
         public IFormFile ImagemUpload { get; set; }
         public string Imagem { get; set; }
 
